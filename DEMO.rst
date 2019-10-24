@@ -492,7 +492,7 @@ There is a `RESET FILTERING` button, press it to restart TriaClick engine in unf
     * Click on the Shipped Year drop down list and select `1994`
         In the year 1994 eight countries only had customers that bought Grains/Cereals from Northwind. The barchart of the dashboard shows that the top selling product with ID=57 was `Ravioli Angelo` but it is in the fourth place in the list of our products ordered by `Stock`.
 
-That concludes our demo guide, there is also a screen capture demo of the Northwind dashboard that you can watch here.
+That concludes our demo guide, there is also a screen capture demo of the Northwind dashboard that you can watch `here <https://www.youtube.com/watch?v=QSk1ldfb7ow>`_
 
 
 

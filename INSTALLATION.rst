@@ -205,5 +205,5 @@ The final step in this installation guide is to create metadata database (MySQL-
 
 Congratulations you have completed successfully the installation guide. You may continue testing the modules of TRIADB by running other scripts in the same folder. For example study how simple and powerful is to fetch metadata from TRIADB. Open and run the scripts, ``MMC_get.py``, ``MIS_DMS_get.py`` and  ``MIS_DRS_get.py`` line by line.
 
-Alternatively you may now try to run demo applications based on simple use cases. Read the :ref:`demo-guide`.
+Alternatively you may now try to run demo applications based on simple use cases. Read the `demo guide <https://github.com/healiseu/triadb/blob/master/DEMO.rst>`_.
 
