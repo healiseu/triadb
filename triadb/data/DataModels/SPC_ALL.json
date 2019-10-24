@@ -1,0 +1,87 @@
+{
+   "cname": "SUPPLIER PART CATALOG ALL",
+   "alias": "SPC_ALL",
+   "data": [
+      {
+         "cname": "SupplierPartCatalog_ALL",
+         "alias": "SupPrtCat_ALL",
+         "fields": [
+            {
+               "cname": "part id",
+               "alias": "prtID",
+               "vtype": "UInt16"
+            },
+            {
+               "cname": "supplier id",
+               "alias": "supID",
+               "vtype": "UInt16"
+            },
+            {
+               "cname": "catalog check",
+               "alias": "catChk",
+               "vtype": "UInt8"
+            },
+            {
+               "cname": "catalog date",
+               "alias": "catDate",
+               "vtype": "Date"
+            },
+            {
+               "cname": "catalog price",
+               "alias": "catPrice",
+               "vtype": "Float32"
+            },
+            {
+               "cname": "catalog total quantity",
+               "alias": "catTotal",
+               "vtype": "UInt16"
+            },
+            {
+               "cname": "part color",
+               "alias": "prtColor",
+               "vtype": "String"
+            },
+            {
+               "cname": "part name",
+               "alias": "prtName",
+               "vtype": "String"
+            },
+            {
+               "cname": "part unit",
+               "alias": "prtUnit",
+               "vtype": "String"
+            },
+            {
+               "cname": "part weight",
+               "alias": "prtWeight",
+               "vtype": "Float32"
+            },
+            {
+               "cname": "supplier address",
+               "alias": "supAddress",
+               "vtype": "String"
+            },
+            {
+               "cname": "supplier city",
+               "alias": "supCity",
+               "vtype": "String"
+            },
+            {
+               "cname": "supplier country",
+               "alias": "supCountry",
+               "vtype": "String"
+            },
+            {
+               "cname": "supplier name",
+               "alias": "supName",
+               "vtype": "String"
+            },
+            {
+               "cname": "supplier status",
+               "alias": "supStatus",
+               "vtype": "UInt8"
+            }
+         ]
+      }
+   ]
+}

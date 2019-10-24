@@ -1,0 +1,258 @@
+{
+   "cname": "PHYSICIAN CMS",
+   "alias": "PHYS CMS",
+   "data": [
+      {
+         "cname": "Physician",
+         "alias": "Phys",
+         "fields": [
+            {
+               "cname": "NPI",
+               "descr": "Unique professional ID assigned by NPPES",
+               "alias": "npi",
+               "vtype": "UInt64"
+            },
+            {
+               "cname": "PAC ID",
+               "descr": "Unique individual professional ID assigned by PECOS",
+               "alias": "pacID",
+               "vtype": "UInt64"
+            },
+            {
+               "cname": "Professional Enrollment ID",
+               "descr": "Unique ID for the individual professional enrollment that is the source of data in the observation",
+               "alias": "profID",
+               "vtype": "String"
+            },
+            {
+               "cname": "Last Name",
+               "descr": "Individual professional last name",
+               "alias": "last",
+               "vtype": "String"
+            },
+            {
+               "cname": "First Name",
+               "descr": "Individual professional first name",
+               "alias": "first",
+               "vtype": "String"
+            },
+            {
+               "cname": "Middle Name",
+               "descr": "Individual professional middle name",
+               "alias": "middle",
+               "vtype": "String"
+            },
+            {
+               "cname": "Suffix",
+               "descr": "Individual professional suffix",
+               "alias": "suffix",
+               "vtype": "String"
+            },
+            {
+               "cname": "Gender",
+               "descr": "Individual professional gender",
+               "alias": "gender",
+               "vtype": "String"
+            },
+            {
+               "cname": "Credential",
+               "descr": "Medical credential such as MD, DO, DPM, etc.",
+               "alias": "cred",
+               "vtype": "String"
+            },
+            {
+               "cname": "Medical school name",
+               "descr": "Individual professional's medical school",
+               "alias": "school",
+               "vtype": "String"
+            },
+            {
+               "cname": "Graduation year",
+               "descr": "Individual professional's medical school graduation year",
+               "alias": "graduated",
+               "vtype": "UInt16"
+            },
+            {
+               "cname": "Primary specialty",
+               "descr": "Primary medical specialty reported by the individual professional in the enrollment",
+               "alias": "spec0",
+               "vtype": "String"
+            },
+            {
+               "cname": "Secondary specialty 1",
+               "descr": "First secondary medical specialty reported by the individual professional in the enrollment",
+               "alias": "spec1",
+               "vtype": "String"
+            },
+            {
+               "cname": "Secondary specialty 2",
+               "descr": "Second secondary medical specialty reported by the individual professional in the enrollment",
+               "alias": "spec2",
+               "vtype": "String"
+            },
+            {
+               "cname": "Secondary specialty 3",
+               "descr": "Third secondary medical specialty reported by the individual professional in the enrollment",
+               "alias": "spec3",
+               "vtype": "String"
+            },
+            {
+               "cname": "Secondary specialty 4",
+               "descr": "Fourth secondary medical specialty reported by the individual professional in the enrollment",
+               "alias": "spec4",
+               "vtype": "String"
+            },
+            {
+               "cname": "All secondary specialties",
+               "descr": "All four secondary specialties reported by the individual professional in the enrollment",
+               "alias": "specs",
+               "vtype": "String"
+            },
+            {
+               "cname": "Organization legal name",
+               "descr": "Legal name of the Group Practice that the individual professional works with",
+               "alias": "org",
+               "vtype": "String"
+            },
+            {
+               "cname": "Group Practice PAC ID",
+               "descr": "Unique Group Practice ID assigned by PECOS to the Group Practice that the professional works with",
+               "alias": "groupID",
+               "vtype": "String"
+            },
+            {
+               "cname": "Number of Group Practice members",
+               "descr": "Total number of professionals affiliated with the Group Practice based on Group Practice PAC ID",
+               "alias": "groupTotal",
+               "vtype": "UInt32"
+            },
+            {
+               "cname": "Line 1 Street Address",
+               "descr": "Group Practice or individual's line 1 address",
+               "alias": "address1",
+               "vtype": "String"
+            },
+            {
+               "cname": "Line 2 Street Address",
+               "descr": "Group Practice or individual's line 2 address",
+               "alias": "address2",
+               "vtype": "String"
+            },
+            {
+               "cname": "Marker of address line 2 suppression",
+               "descr": "Marker that address as reported may be incomplete",
+               "alias": "addrMarker",
+               "vtype": "String"
+            },
+            {
+               "cname": "City",
+               "descr": "Group Practice or individual's city",
+               "alias": "city",
+               "vtype": "String"
+            },
+            {
+               "cname": "State",
+               "descr": "Group Practice or individual's state",
+               "alias": "state",
+               "vtype": "String"
+            },
+            {
+               "cname": "Zip Code",
+               "descr": "Group Practice or individual's zip code (9 digits when available",
+               "alias": "zip",
+               "vtype": "String"
+            },
+            {
+               "cname": "Phone Number",
+               "descr": "Phone is listed only when there is a single phone number available for the practice location address",
+               "alias": "phone",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation CCN 1",
+               "descr": "Medicare CCN of hospital where individual professional provides service",
+               "alias": "ccn1",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation LBN 1",
+               "descr": "Legal business name of hospital where individual professional provides service",
+               "alias": "lbn1",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation CCN 2",
+               "descr": "Medicare CCN of hospital where individual professional provides service",
+               "alias": "ccn2",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation LBN 2",
+               "descr": "Legal business name of hospital where individual professional provides service",
+               "alias": "lbn2",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation CCN 3",
+               "descr": "Medicare CCN of hospital where individual professional provides service",
+               "alias": "ccn3",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation LBN 3",
+               "descr": "Legal business name of hospital where individual professional provides service",
+               "alias": "lbn3",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation CCN 4",
+               "descr": "Medicare CCN of hospital where individual professional provides service",
+               "alias": "ccn4",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation LBN 4",
+               "descr": "Legal business name of hospital where individual professional provides service",
+               "alias": "lbn4",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation CCN 5",
+               "descr": "Medicare CCN of hospital where individual professional provides service",
+               "alias": "ccn5",
+               "vtype": "String"
+            },
+            {
+               "cname": "Hospital affiliation LBN 5",
+               "descr": "Legal business name of hospital where individual professional provides service",
+               "alias": "lbn5",
+               "vtype": "String"
+            },
+            {
+               "cname": "Professional accepts Medicare Assignment",
+               "descr": "Y = Professional accepts..., M = Professional may accept...",
+               "alias": "payCode",
+               "vtype": "String"
+            },
+            {
+               "cname": "Physician Reported Quality Measures",
+               "descr": "Physician Quality Reporting System (PQRS) is a Medicare program",
+               "alias": "pqrs",
+               "vtype": "String"
+            },
+            {
+               "cname": "Used Electronic Health Records (EHR)",
+               "descr": "EHR Incentive Program encourages professionals to use certified EHR technology",
+               "alias": "ehr",
+               "vtype": "String"
+            },
+            {
+               "cname": "Million Hearts® initiative",
+               "descr": "National initiative to report on activities related to heart health",
+               "alias": "hearts",
+               "vtype": "String"
+            }
+         ]
+      }
+   ]
+}

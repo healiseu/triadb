@@ -1,0 +1,7 @@
+recursive-include triadb/test_modules *.py
+recursive-include triadb/test_cases *.py *.ipynb *.css *.png
+recursive-include triadb/data *.xml *.json *.tsv *.sql
+recursive-include triadb *.md *.txt
+
+include NOTICE.txt
+include README.rst

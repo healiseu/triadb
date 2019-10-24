@@ -1,0 +1,57 @@
+{
+   "cname": "BICYCLE TRIPS 2010-2018",
+   "alias": "BIKE_TRIPS",
+   "data": [
+      {
+         "cname": "Bicycle Trips 2010-2018",
+         "alias": "BikeTrips",
+         "fields": [
+            {
+               "cname": "Duration",
+               "alias": "duration",
+               "vtype": "UInt32"
+            },
+            {
+               "cname": "Start date",
+               "alias": "start_date",
+               "vtype": "DateTime"
+            },
+            {
+               "cname": "End date",
+               "alias": "end_date",
+               "vtype": "DateTime"
+            },
+            {
+               "cname": "Start station number",
+               "alias": "from_station_id",
+               "vtype": "UInt16"
+            },
+            {
+               "cname": "Start station",
+               "alias": "from_station_name",
+               "vtype": "String"
+            },
+            {
+               "cname": "End station number",
+               "alias": "to_station_id",
+               "vtype": "UInt16"
+            },
+            {
+               "cname": "End station",
+               "alias": "to_station_name",
+               "vtype": "String"
+            },
+            {
+               "cname": "Bike number",
+               "alias": "bike_code",
+               "vtype": "String"
+            },
+            {
+               "cname": "Member type",
+               "alias": "member_type",
+               "vtype": "String"
+            }
+         ]
+      }
+   ]
+}

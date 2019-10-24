@@ -1,0 +1,10 @@
+jupyterlab
+jupyterlab_server
+jupyter
+jupyter_core
+jupyterlab-plotly-extension
+
+graphviz
+pygraphviz
+python-graphviz
+pydot

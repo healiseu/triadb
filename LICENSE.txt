@@ -1,0 +1,5 @@
+The default license throughout the repository is GNU Affero General Public License v.3.0
+unless the header of the source file specifies another license.
+
+Modules in the "triaclick" python subpackage folder implement Associative Semiotic Hypergraph technology,
+are designed to work with TRIADB and provided to you under TriaClick Open Source License Agreement (TOSLA)

@@ -1,0 +1,5 @@
+TRIADB  Self-Service Data Management and Analytics Framework
+Copyright 2015-2019 Athanassios I. Hatzis
+
+TRIADB includes TriaClick Associative Semiotic Hypergraph Engine developed by Athanassios I. Hatzis
+and licensed under TriaClick Open Source License Agreement (TOSLA)
