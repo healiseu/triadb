@@ -25,7 +25,7 @@ Currently **TriaClick, the Associative Semiotic Hypergraph Engine of TRIADB,** i
 Python Environment
 ==================
 
-TRIADB is written in Python3. You can run scripts on a shell, you can create Web Browser applications or you may try a more interactive computing style in a Jupyter Notebook. For this reason we recommend you run your tests with the latest Anaconda Python 3.7 distribution. It has also become a standard practise to create a virtual environment and test Python packages there.
+TRIADB is written in Python3. You can run scripts on a shell, you can create Web Browser applications or you may try a more interactive computing style in a Jupyter Notebook. For this reason it is recommended you run your tests with the latest Anaconda Python 3.7 distribution. It has also become a standard practise to create a virtual environment and test Python packages there.
 
 Anaconda Environment Setup
 --------------------------
@@ -205,5 +205,5 @@ The final step in this installation guide is to create metadata database (MySQL-
 
 Congratulations you have completed successfully the installation guide. You may continue testing the modules of TRIADB by running other scripts in the same folder. For example study how simple and powerful is to fetch metadata from TRIADB. Open and run the scripts, ``MMC_get.py``, ``MIS_DMS_get.py`` and  ``MIS_DRS_get.py`` line by line.
 
-Alternatively you may now try to run demo applications based on simple use cases. Read the `demo guide <https://github.com/healiseu/triadb/blob/master/DEMO.rst>`_.
+Alternatively you can study the code for simple use cases to see how you can develop TRIADB applications. Read the `tutorial guide <https://github.com/healiseu/triadb/blob/master/TUTORIAL.rst>`_ that is included in the release.
 
