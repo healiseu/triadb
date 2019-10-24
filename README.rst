@@ -23,7 +23,7 @@ Watch a `screen capture demo <https://www.youtube.com/watch?v=QSk1ldfb7ow>`_ and
 
 TRIADB Tutorial
 ---------------
-If you decide to go deeper, read our `tutorial guide <https://github.com/healiseu/triadb/blob/master/TUTORIAL.rst>`_ to get into the basics of programming with TRIADB.
+If you decide to go deeper, read the `tutorial guide <https://github.com/healiseu/triadb/blob/master/TUTORIAL.rst>`_ to get into the basics of programming with TRIADB.
 
 Try TRIADB
 ----------
