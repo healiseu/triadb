@@ -19,7 +19,7 @@ Watch our `screen capture demo <https://www.youtube.com/watch?v=QSk1ldfb7ow>`_ a
 
         Northwind dashboard screen capture from the demo of TRIADB
 
-Then if you decide to go deeper, read our :doc:`demo guide ./DEMO` to get into the basics of programming with TRIADB. Finally give it a try by installing TRIADB at your premises.
+Then if you decide to go deeper, read our :doc:`demo guide /DEMO.rst` to get into the basics of programming with TRIADB. Finally give it a try by installing TRIADB at your premises.
 
 
 Wish you a happy path testing and a pleasant experience
