@@ -1,6 +1,8 @@
 ======
-TRIADB
+⛔️ DEPRECATED: This repository is no longer supported
 ======
+
+**The successor of this project is HyperMorph <https://github.com/healiseu/hypermorph>**
 
 ---------------------------------------------------------------------
 Self-Service Data Management & Visual Interactive Analytics Framework
